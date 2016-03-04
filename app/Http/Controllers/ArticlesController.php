@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Cache;
 
 class ArticlesController extends Controller
 {
@@ -17,7 +18,9 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        $articles = Article::all();
+        $articles = Cache::remember('articles', 1, function(){
+            return Article::all();
+        });
         return response()->json($articles);
     }
 

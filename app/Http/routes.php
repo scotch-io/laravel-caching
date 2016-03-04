@@ -11,6 +11,10 @@
 |
 */
 
+\Illuminate\Support\Facades\Event::listen('illuminate.query', function($q){
+    \Illuminate\Support\Facades\Log::info($q);
+});
+
 Route::group(['prefix' => 'api'], function(){
     Route::get('articles', 'ArticlesController@index');
 });
