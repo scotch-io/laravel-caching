@@ -18,7 +18,7 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        $articles = Cache::remember('articles', 1, function(){
+        $articles = Cache::remember('articles', 5, function(){
             return Article::all();
         });
         return response()->json($articles);
