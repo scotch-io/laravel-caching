@@ -61,7 +61,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.15970962">
-                <caret line="4" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="41" />
+                <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -389,7 +389,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quickstart" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
@@ -563,7 +563,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.15970962">
-            <caret line="4" column="41" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="41" />
+            <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />
